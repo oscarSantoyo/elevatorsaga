@@ -60,7 +60,8 @@ var requireDemo = function() {
 
 /* jshint laxcomma:true */
 var challenges = [
-     {options: {floorCount: 3, elevatorCount: 1, spawnRate: 0.3}, condition: requireUserCountWithinTime(15, 60)}
+     // {options: {floorCount: 3, elevatorCount: 1, spawnRate: 1.3}, condition: requireUserCountWithinTime(15, 60)}
+     {options: {floorCount: 4, elevatorCount: 1, spawnRate: 1.9}, condition: requireUserCountWithinMoves(100, 63)}
     ,{options: {floorCount: 5, elevatorCount: 1, spawnRate: 0.4}, condition: requireUserCountWithinTime(20, 60)}
     ,{options: {floorCount: 5, elevatorCount: 1, spawnRate: 0.5, elevatorCapacities: [6]}, condition: requireUserCountWithinTime(23, 60)}
     ,{options: {floorCount: 8, elevatorCount: 2, spawnRate: 0.6}, condition: requireUserCountWithinTime(28, 60)}

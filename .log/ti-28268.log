@@ -1,0 +1,70 @@
+[19:4:10.398] Global cache location '/Users/omar/Library/Caches/typescript/3.9', safe file path '/users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingsafelist.json', types map path /users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesmap.json
+[19:4:10.400] Processing cache location '/Users/omar/Library/Caches/typescript/3.9'
+[19:4:10.401] Trying to find '/Users/omar/Library/Caches/typescript/3.9/package.json'...
+[19:4:10.403] Loaded content of '/Users/omar/Library/Caches/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.491"},"devDependencies":{"@types/node":"^14.0.5","@types/object-assign":"^4.0.30","@types/prop-types":"^15.7.3","@types/react":"^16.9.35","@types/react-dom":"^16.9.8","@types/scheduler":"^0.16.1"}}
+[19:4:10.403] Loaded content of '/Users/omar/Library/Caches/typescript/3.9/package-lock.json'
+[19:4:10.420] Adding entry into typings cache: 'node' => '/Users/omar/Library/Caches/typescript/3.9/node_modules/@types/node/ts3.7/index.d.ts'
+[19:4:10.423] Adding entry into typings cache: 'object-assign' => '/Users/omar/Library/Caches/typescript/3.9/node_modules/@types/object-assign/index.d.ts'
+[19:4:10.426] Adding entry into typings cache: 'prop-types' => '/Users/omar/Library/Caches/typescript/3.9/node_modules/@types/prop-types/index.d.ts'
+[19:4:10.431] Adding entry into typings cache: 'react' => '/Users/omar/Library/Caches/typescript/3.9/node_modules/@types/react/index.d.ts'
+[19:4:10.433] Adding entry into typings cache: 'react-dom' => '/Users/omar/Library/Caches/typescript/3.9/node_modules/@types/react-dom/index.d.ts'
+[19:4:10.436] Adding entry into typings cache: 'scheduler' => '/Users/omar/Library/Caches/typescript/3.9/node_modules/@types/scheduler/index.d.ts'
+[19:4:10.436] Finished processing cache location '/Users/omar/Library/Caches/typescript/3.9'
+[19:4:10.436] Process id: 28269
+[19:4:10.436] NPM location: /Users/omar/.nvm/versions/node/v11.15.0/bin/npm (explicit '--npmLocation' not  provided)
+[19:4:10.436] validateDefaultNpmLocation: false
+[19:4:10.436] Npm config file: /Users/omar/Library/Caches/typescript/3.9/package.json
+[19:4:10.436] Updating types-registry npm package...
+[19:4:10.437] Exec: /Users/omar/.nvm/versions/node/v11.15.0/bin/npm install --ignore-scripts types-registry@latest
+[19:4:13.397]     Succeeded. stdout:
+    + types-registry@0.1.492
+    updated 1 package and audited 8 packages in 2.032s
+found 0 vulnerabilities
+
+
+[19:4:13.397] Updated types-registry npm package
+[19:4:13.413] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/omar/personal/elevatorsaga/app.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/omar/personal/elevatorsaga","kind":"discover"}
+[19:4:13.427] Loaded safelist from types map file '/users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesmap.json'
+[19:4:13.429] Explicitly included types: []
+[19:4:13.430] Inferred typings from unresolved imports: []
+[19:4:13.430] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[19:4:13.430] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[19:4:13.431] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/bower_components
+[19:4:13.432] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/node_modules
+[19:4:13.433] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:4:13.433] Response has been sent.
+[19:4:13.433] No new typings were requested as a result of typings discovery
+[19:4:47.930] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/omar/personal/elevatorsaga/challenges.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/omar/personal/elevatorsaga","kind":"discover"}
+[19:4:47.931] Explicitly included types: []
+[19:4:47.931] Inferred typings from unresolved imports: []
+[19:4:47.931] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[19:4:47.931] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[19:4:47.931] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/bower_components
+[19:4:47.932] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/node_modules
+[19:4:47.932] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:4:47.932] Response has been sent.
+[19:4:47.932] No new typings were requested as a result of typings discovery
+[14:49:18.277] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":["/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/omar/personal/elevatorsaga/base.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/omar/personal/elevatorsaga","kind":"discover"}
+[14:49:18.281] Explicitly included types: []
+[14:49:18.282] Inferred typings from unresolved imports: []
+[14:49:18.282] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[14:49:18.282] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[14:49:18.283] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/bower_components
+[14:49:18.283] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/node_modules
+[14:49:18.283] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:49:18.283] Response has been sent.
+[14:49:18.283] No new typings were requested as a result of typings discovery
+[0:43:21.587] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/omar/doom-emacs/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/omar/personal/elevatorsaga/elevator.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/omar/personal/elevatorsaga","kind":"discover"}
+[0:43:21.590] Explicitly included types: []
+[0:43:21.591] Inferred typings from unresolved imports: []
+[0:43:21.591] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[0:43:21.591] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/omar/personal/elevatorsaga/bower_components","/Users/omar/personal/elevatorsaga/node_modules"]}
+[0:43:21.591] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/bower_components
+[0:43:21.591] DirectoryWatcher:: Added:: WatchInfo: /Users/omar/personal/elevatorsaga/node_modules
+[0:43:21.591] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[0:43:21.592] Response has been sent.
+[0:43:21.592] No new typings were requested as a result of typings discovery

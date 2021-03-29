@@ -1,7 +1,9 @@
 
 var createEditor = function() {
     var lsKey = "elevatorCrushCode_v5";
-
+    let codeStr = codeFile.getCode();
+    // localStorage.setItem(lsKey, codeStr);
+    // console.log("code:", codeStr);
     var cm = CodeMirror.fromTextArea(document.getElementById("code"), {
         lineNumbers: true,
         indentUnit: 4,
@@ -17,7 +19,7 @@ var createEditor = function() {
             }
         }
     });
-
+   
     // reindent on paste (adapted from https://github.com/ahuth/brackets-paste-and-indent/blob/master/main.js)
     cm.on("change", function(codeMirror, change) {
         if(change.origin !== "paste") {
@@ -191,7 +193,8 @@ $(function() {
             }
         });
 
-        var codeObj = editor.getCodeObj();
+        //var codeObj = editor.getCodeObj();
+        let codeObj = codeFile.getCode();
         console.log("Starting...");
         app.worldController.start(app.world, codeObj, window.requestAnimationFrame, autoStart);
     };
